@@ -75,10 +75,10 @@ function celsiusToFahrenheit(arrayOfNumbers) {
       continue
     }
     else{
-      var numberInFahrenheight = null;
-      numberInFahrenheight = Math.trunc((number * (9/5)) + 32);
+      var numberInFahrenheiht = null;
+      numberInFahrenheiht = Math.trunc((number * (9/5)) + 32);
       arrayOfNumbersFahrenheit
-        .push(numberInFahrenheight);
+        .push(numberInFahrenheiht);
     }
   }
   return arrayOfNumbersFahrenheit;
